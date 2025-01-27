@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swappa</title>
+    <link href="https://cdn.jsdelivr.net/npm/fastbootstrap@2.2.0/dist/css/fastbootstrap.min.css" rel="stylesheet" integrity="sha256-V6lu+OdYNKTKTsVFBuQsyIlDiRWiOmtC8VQ8Lzdm2i4=" crossorigin="anonymous">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+     *{
+        border: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+     body{
+        color: #f5f5f5;
+     }
+     .makara{
+      width: 100%;
+      height: 80px;
+     }
+    
+</style>
+<body>
+    
+    <nav class="navbar makara navbar-expand-lg bg-success">
+        <div class="container  gap-3">
+            <img src="image/logoswappa.png" style="width: 20%;">
+            <form class="container">
+              <div class="input-group">
+                <input type="text" class="form-control" 
+                placeholder="Find a good deal" 
+                aria-label="Username" 
+                aria-describedby="basic-addon1">
+              </div>
+            </form>
+          <div class="containter">
+            <ul class="navbar-nav m-5" style="font-size: 20px;">
+              <li class="nav-item">
+                <a class="nav-link position-relative text-light" href="#"> <i class="fa-solid fa-circle-question"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link position-relative text-light" href="#"> <i class="fa-solid fa-user"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link position-relative text-light" href="#"> <i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-danger ">
+    <div class="container">
+      <div class="dropdown ">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Apple</button>
+        <ul class="dropdown-menu ">
+          <li><a class="dropdown-item" href="#">iphone</a></li>
+          <li><a class="dropdown-item" href="#">ipad</a></li>
+          <li><a class="dropdown-item" href="#">Apples watch</a></li>
+          <li><a class="dropdown-item" href="#">Airpods</a></li>
+          <li><a class="dropdown-item" href="#">Macbook Pro</a></li>
+          <li><a class="dropdown-item" href="#">Macbook Air</a></li>
+          <li><a class="dropdown-item" href="#">iMac</a></li>
+          <li><a class="dropdown-item" href="#">Mac mini</a></li>
+          <li><a class="dropdown-item" href="#">iPod</a></li>
+          <li><a class="dropdown-item" href="#">Apple TV</a></li>
+          <li><a class="dropdown-item" href="#">Vision Pro</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Apples</a></li>
+        </ul>
+      </div>  
+      <div class="dropdown">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">IPhones</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-unlock"></i>Unlocked</a></li>
+          <li><a class="dropdown-item" href="#">Iphone 16 series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone 15 series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone 14 series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone 13 series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone 12 series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone Pro series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone Max series</a></li>
+          <li><a class="dropdown-item" href="#">Iphone SE series</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-info"></i>Buyer's Guid</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-dollar-sign"></i>Sell iPhone</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All iPhones</a></li>
+        </ul>
+      </div>  
+      <div class="dropdown">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">IPhones</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-unlock"></i>Unlocked</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>Apple</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-android"></i>Samsung</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-g"></i>Google</a></li>
+          <li><a class="dropdown-item" href="#">Verizon</a></li>
+          <li><a class="dropdown-item" href="#">T-Moblie</a></li>
+          <li><a class="dropdown-item" href="#">AT&T</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Phones</a></li>
+        </ul>
+      </div>  
+      <div class="dropdown ">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Laptops</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>Macbook</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>MacBook Pro</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>MacBook Air</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-chrome"></i>Chromebook</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-windows"></i>Windows</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-info"></i>MacBook Guide</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Labtops</a></li>
+        </ul>
+      </div>  
+      <div class="dropdown ">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Snekers</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Air Jordan</a></li>
+          <li><a class="dropdown-item" href="#">Air Max</a></li>
+          <li><a class="dropdown-item" href="#">Air Max 1</a></li>
+          <li><a class="dropdown-item" href="#">Jordan 1</a></li>
+          <li><a class="dropdown-item" href="#">Jordan 4</a></li>
+          <li><a class="dropdown-item" href="#">Nike Dunks</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Sneakers</a></li>
+        </ul>
+      </div>  
+      <div class="dropdown dropdown-hover">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Watchs</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>Apple Watch</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-stopwatch"></i>Samsung Smartwatch</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-android"></i>Android Smartwatch</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Wearables</a></li>
+        </ul>
+      </div>  
+      <div class="dropdown dropdown-hover">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Tablets</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>iPad</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-android"></i>Samsung</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-windows"></i>Windows / Surface</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-amazon"></i>Amazon / Kindle</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Tablets</a></li>
+        </ul>
+      </div>  
+      <div class="dropdown dropdown-hover">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Video Game</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-playstation"></i>PlayStation 5</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-playstation"></i>PlayStation 4</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-xbox"></i>Xbox Series X/5</a></li>
+          <li><a class="dropdown-item" href="#">Nintendo Switch</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-xbox"></i>Games</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>All Gaming</a></li>
+        </ul>
+      </div>  
+      <div class="dropdown dropdown-hover">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">More</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Audio & AirPods</a></li>
+          <li><a class="dropdown-item" href="#">Cameras & Lenses</a></li>
+          <li><a class="dropdown-item" href="#">Computers</a></li>
+          <li><a class="dropdown-item" href="#">Drones</a></li>
+          <li><a class="dropdown-item" href="#">Fitness & Cycling</a></li>
+          <li><a class="dropdown-item" href="#">Home Tech</a></li>
+        </ul>
+      </div>  
+      <div class="dropdown dropdown-hover">
+        <button type="button" class="btn text-light btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Sell</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>iPhone</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-mobile-screen-button"></i>Phones</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-laptop"></i>Laptop</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-brands fa-apple"></i>MacBook</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-stopwatch"></i>Watch</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-shoe-prints"></i>Sneakers</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-volume-high"></i>Audio</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-gamepad"></i>Video Gaming</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-hand-holding-dollar"></i>Trade-in</a></li>
+          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right"></i>Sell Used Tech</a></li>
+        </ul>
+      </div>  
+    </div>
+    </nav>
+    <div class="buy-sell-save text-center mt-3" style="padding: 10px; color: rgb(135, 9, 9);">
+      <h1>Buy + Sell + Save</h1>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-4 justify-content-center w-75 mx-auto" >
+      <div class="col">
+        <div class="card h-50 ">
+          <img src="https://static.swappa.com/static/images/categories/retro/category_phones_300x300.png" class="card-img-top" alt="card example" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-50">
+          <img src="https://static.swappa.com/static/images/categories/retro/category_laptops_300x300.png" class="card-img-top" alt="card example" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-50">
+          <img src="https://static.swappa.com/static/images/categories/retro/category_wearables_300x300.png" class="card-img-top" alt="card example" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="text-center text-dark mt-2"><h1>Shop Phones by Carrier</h1></div>
+      <div class="row row-cols-1 row-cols-md-5 justify-content-center w-50 mx-auto mt-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://static.swappa.com/static/images/carrier/unlocked_btn.svg" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://static.swappa.com/static/images/carrier/att_btn.svg" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://static.swappa.com/static/images/carrier/tmobile_btn.svg" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://static.swappa.com/static/images/carrier/verizon_btn.svg" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+      </div>
+      
+
+    
+      <div class="row row-cols row-cols-md-6 justify-content-center mt-5 w-75 mx-auto">
+        <div class="col">
+          <div class="card">
+            <h3 class="text-center fs-5 ">iPhones</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_iphones_300x300.png" class="card-img-top"  alt="AT&T" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h3 class="text-center fs-5 ">Computer+GPUs</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_computers_300x300.png" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h3 class="text-center fs-5">Watchs</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_wearables_300x300.png" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h3 class="text-center fs-5">iPads+Tablets</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_tablets_300x300.png" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h3 class="text-center fs-5">Video Games</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_gaming_300x300.png" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h3 class="text-center fs-5">Home Tech</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_home_tech_300x300.png" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card">
+            <h3 class="text-center fs-5">Cameras+Lenses</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_cameras_300x300.png" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card">
+            <h3 class="text-center fs-5">AirPods+Audio</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_audio_300x300.png" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card"><h3 class="text-center fs-5">Drones</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_drones_300x300.png" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card">
+            <h3 class="text-center fs-5">Fitness+Cycling</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_fitness_300x300.png" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card">
+            <h3 class="text-center fs-5">Power Tools</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_power_tools_300x300.png" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card">
+            <h3 class="text-center fs-5">Sneakers</h3>
+            <img src="https://static.swappa.com/static/images/categories/retro/category_shoes_300x300.png" class="card-img-top" alt="AT&T" />
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-3xl mx-auto mt-5">
+      <nav class="navbar bg-body-tertiary ">
+        <div class="container">
+          <div class="text-center text-dark">
+            <h3><i class="fa-solid m-2 fa-dollar-sign"></i>Get more green, get paid fast</h3>
+          </div>
+          <button type="button" class="btn btn-outline-secondary">Sell With Swappa<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </nav>
+    </div>
+  
+    
+
+    <div class="text-center text-dark mt-2"><h3>Featured Brands</h3></div>
+    <div class="row row-cols row-cols-md-6 justify-content-center d-flex mt-5 w-75 mx-auto">
+      <div class="col">
+        <div class="card">
+          <img src="https://static.swappa.com/media/brand/amazon/image_mark/iRFLLFuc.png" class="card-img-top" style="width: 170px; justify-content: center;" alt="AT&T" />
+          <p class="text-center text-success">Amazon</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://static.swappa.com/media/brand/apple/image_mark/jaVqDkqE.png" class="card-img-top" alt="AT&T" />
+          <p class="text-center text-success">Apple</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://static.swappa.com/media/brand/google/image_mark/vQaBzUAy.png" class="card-img-top" alt="AT&T" />
+          <p class="text-center text-success">Google</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://static.swappa.com/media/brand/jordan/image_mark/ncYfbXIa.png" class="card-img-top"  alt="AT&T" />
+          <p class="text-center text-success">Jordan</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://static.swappa.com/media/brand/microsoft/image_mark/VBaXkaGh.png" class="card-img-top" alt="AT&T" />
+          <p class="text-center text-success">Microsoft</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://static.swappa.com/media/brand/nike/image_mark/PloAToEZ.png" class="card-img-top" alt="AT&T" />
+          <p class="text-center text-success">Nike</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://static.swappa.com/media/brand/nintendo/image_mark/fhGsYMux.png" class="card-img-top" alt="AT&T" />
+          <p class="text-center text-success">Nintendo</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://static.swappa.com/media/brand/nvidia/image_mark/cZUUeGcU.png" class="card-img-top" alt="AT&T" />
+          <p class="text-center text-success">Nvidia</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://static.swappa.com/media/brand/oneplus/image_mark/BzLlckQf.png" class="card-img-top" alt="AT&T" />
+          <p class="text-center text-success">OnePlus</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://static.swappa.com/media/brand/samsung/image_mark/ylIjAIYC.png" class="card-img-top" alt="AT&T" />
+          <p class="text-center text-success">Samsung</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
